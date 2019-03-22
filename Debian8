@@ -357,14 +357,6 @@ verb 3
 cipher AES-128-CBC
 END
 
-# download cert openvpn config
-wget https://raw.githubusercontent.com/wangzki03/premscript/master/cert.zip -O cert.zip
-unzip cert.zip
-rm zip*
-cp -r config/* /etc/openvpn
-cd /root
-chmod -R 755 /etc/openvpn
-
 #Create OpenVPN Config
 mkdir -p /home/vps/public_html
 cat > /home/vps/public_html/client.ovpn <<-END
