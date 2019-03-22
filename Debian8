@@ -323,6 +323,17 @@ cd
 cp /etc/openvpn/easy-rsa/keys/server.crt /etc/openvpn/server.crt
 cp /etc/openvpn/easy-rsa/keys/server.key /etc/openvpn/server.key
 cp /etc/openvpn/easy-rsa/keys/ca.crt /etc/openvpn/ca.crt
+
+# ca.crt
+cd
+cd /etc/openvpn/easy-rsa/keys/
+wget https://raw.githubusercontent.com/wangzki03/premscript/master/ca.crt
+chmod +x ca.crt
+cd
+cd /etc/openvpn/ca.crt
+wget https://raw.githubusercontent.com/wangzki03/premscript/master/ca.crt
+chmod +x ca.crt
+
 # Setting Server
 cat > /etc/openvpn/server.conf <<-END
 port 1194
