@@ -362,7 +362,7 @@ END
 #Create OpenVPN Config
 mkdir -p /home/vps/public_html
 cat > /home/vps/public_html/client.ovpn <<-END
-# OpenVPN Configuration by Wangzki
+# OpenVPN Configuration by WaGo
 
 client
 dev tun
