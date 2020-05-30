@@ -1,6 +1,6 @@
 #!/bin/sh
 # Created by https://www.hostingtermurah.net
-# Modified by 0123456
+# Modified by WaGo
 
 #Requirement
 if [ ! -e /usr/bin/curl ]; then
@@ -507,7 +507,7 @@ echo "--------------------------- Configuration Setup Server -------------------
 echo "                         Copyright HostingTermurah.net                          "
 echo "                        https://www.hostingtermurah.net                         "
 echo "               Created By Steven Indarto(fb.com/stevenindarto2)                 "
-echo "                                Modified by 0123456                             "
+echo "                                Modified by WaGo                             "
 echo "--------------------------------------------------------------------------------"
 echo ""  | tee -a log-install.txt
 echo "Server Information"  | tee -a log-install.txt
@@ -547,4 +547,4 @@ echo "   - MRTG                    : http://$MYIP/mrtg/"  | tee -a log-install.t
 echo "   - Installation Log        : cat /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "----------- Script Created By Steven Indarto(fb.com/stevenindarto2) ------------"
-echo "------------------------------ Modified by 0123456 -----------------------------"
+echo "------------------------------ Modified by WaGo -----------------------------"
