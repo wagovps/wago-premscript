@@ -1,6 +1,6 @@
 #!/bin/bash
-# Original Script by Usnekx
-# Created by 0123456
+# Original Script by WaGo
+# Created by WaGo
 
 # Bruteforce Protection
 iptables -A INPUT -p tcp --dport ssh -m conntrack --ctstate NEW -m recent --set 
@@ -80,6 +80,6 @@ echo "Bruteforce Protection"
 echo "Port Scanning Protection"
 echo "Torrent Blocking"
 echo " "
-echo "Original Script by Usnekx"
-echo "Created by 0123456"
+echo "Original Script by WaGo"
+echo "Created by WaGo"
 echo " "
