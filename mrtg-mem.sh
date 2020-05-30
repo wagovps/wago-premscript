@@ -7,5 +7,5 @@ UP=`uptime`
 echo $FREE
 echo $SWAP
 echo $UP
-echo "0123456"
+echo "WaGo"
 
