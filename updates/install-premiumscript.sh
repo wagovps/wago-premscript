@@ -1,6 +1,6 @@
 #!/bin/bash
 # Created by http://www.vps-murah.net
-# Modified by 0123456
+# Modified by WaGo
 
 cd
 sed -i '$ i\screen -AmdS limit /root/limit.sh' /etc/rc.local
@@ -77,5 +77,5 @@ cd
 echo " "
 echo " "
 echo "Premium Script Successfully Updates!"
-echo "Modified by 0123456"
+echo "Modified by WaGo"
 echo " "
