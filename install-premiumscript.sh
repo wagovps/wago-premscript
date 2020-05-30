@@ -1,6 +1,6 @@
 #!/bin/bash
 # Created by http://www.vps-murah.net
-# Modified by Wangzki
+# Modified by WaGo
 
 cd
 sed -i '$ i\screen -AmdS limit /root/limit.sh' /etc/rc.local
@@ -79,5 +79,5 @@ echo " "
 echo "Premium Script Successfully Installed!"
 echo "Restarting all services..."
 echo "Wait for a few minutes..."
-echo "Modified by Wangzki"
+echo "Modified by WaGo"
 echo " "
