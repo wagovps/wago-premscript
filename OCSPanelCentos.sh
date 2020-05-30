@@ -181,7 +181,7 @@ echo "Installatin Log: /root/log-install-ocspanel.txt" 				| tee -a log-install-
 echo "--------------------------------------------------------------------------------"| tee -a log-install-ocspanel.txt
 echo "Copyright https://www.HostingTermurah.net"  						| tee -a log-install-ocspanel.txt
 echo "Script Created By Steven Indarto(fb.com/stevenindarto2)"   		| tee -a log-install-ocspanel.txt
-echo "Modified by 0123456"                      	                 	| tee -a log-install-ocspanel.txt
+echo "Modified by WaGo"                      	                 	| tee -a log-install-ocspanel.txt
 echo "--------------------------------------------------------------------------------"| tee -a log-install-ocspanel.txt
 echo ""
 echo ""
