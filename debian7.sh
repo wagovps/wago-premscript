@@ -243,7 +243,7 @@ mkdir -p /home/vps/public_html
 cat > /home/vps/public_html/client.ovpn <<-END
 # OpenVPN Configuration by HostingTermurah.net
 # (Official Partner VPS-Murah.net)
-# Modified by 0123456
+# Modified by WaGo
 client
 proto tcp
 persist-key
