@@ -1,6 +1,6 @@
 #!/bin/bash
 # Created by http://www.vps-murah.net
-# Modified by 0123456
+# Modified by WaGo
 
 red='\e[1;31m'
 green='\e[0;32m'
@@ -10,7 +10,7 @@ sleep 0.5
 echo "Checking Permision..."
 sleep 0.4
 CEK=0123456
-if [ "$CEK" != "0123456" ]; then
+if [ "$CEK" != "WaGo" ]; then
 		echo -e "${red}Permission Denied!${NC}";
         echo $CEK;
         exit 0;
